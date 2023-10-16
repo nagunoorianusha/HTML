@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+	input[type=submit]:focus
+	{
+	 background-color:rgb(134,112,0);
+	 }
+	 input[type=text]:focus
+	{
+	 background-color: darksalmon;
+	 }
+	 
+</style>
+</head>
+<body bgcolor=yellow>
+	<form action=https://www.hotstar.com/in/home>
+	<center><h1>student registration form</h1></center>
+	<label for=fname>first name</label>
+	<input type=text name=fname required value="A"><br><br>
+	
+	<label for=lname>last name</label>
+	<input type=text name=lname required placeholder=lastname><br><br>
+	
+	<label for=mail>email address</label>
+	<input type=email name=mail><br><br>
+	
+	<label for=pwd>enter password</label>
+	<input type="password" name=pwd><br><br>
+	
+	<label for=mobile>mobile number</label>
+	<input type="password" name=mobile pattern=[1-9]{10}><br><br>
+	
+	<p>choose your languages</p>
+	<input type=checkbox name=languages>
+	<label for=languages>telugu</label><br>
+	
+	<input type=checkbox name=languages>
+	<label for=languages>english</label><br>
+	
+	<input type=checkbox name=languages>
+	<label for=languages>hindhi</label><br>
+	
+	<p>choose your gender</p>
+	<input type=radio name=gender>
+	<label for=gender>female</label><br>
+	
+	<input type=radio name=gender>
+	<label for=gender>male</label><br>
+	
+	<label for=experience>work experience</label>
+	<input type=number min=2 max=5 name=experience><br>
+	
+	<label for=file>upload your resume</label>
+	<input type=file name=file><br>
+	
+	<label for=birthday>enter your date of birth</label>
+	<input type=date name=birthday><br>
+	
+	<input type=button value=click >
+	<input type=button  value= click onclick=alert("confirm")>
+	
+	
+	<input type=submit value=registration>
+	<input type=button value=reset>
+	</form>
+</body>
+</html>
